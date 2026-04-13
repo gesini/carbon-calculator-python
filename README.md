@@ -28,6 +28,7 @@ A aplicação calcula o impacto ambiental anual considerando diferentes aspectos
 
 ---
 
+
 ## 🗂️ Estrutura do projeto
 
 ```text
@@ -47,14 +48,21 @@ carbon-calculator-python/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+
+---
+
 🚀 Como executar o projeto
 1. Instalar dependências
 python -m pip install -r requirements.txt
+
 2. Executar o programa
 python main.py
+
 3. Executar testes
 python -m pytest
+
 💡 Exemplo de uso
+
 Consumo de eletricidade (kWh/ano): 2000
 Quilometragem anual do carro (km): 12000
 Consumo médio do carro (litros/100km): 8.33
@@ -65,20 +73,17 @@ Distância anual de transporte público (km): 0
 Modo: onibus
 Quantidade de resíduos (kg): 600
 Tipo de dieta: mista
+
 🌍 Tecnologias utilizadas
 Python 3
 Pytest
-CSV (armazenamento de dados)
+CSV
+
 📈 Possíveis melhorias
 Interface gráfica (GUI)
 Aplicação web com Streamlit
 Dashboard com gráficos
 Integração com banco de dados
-Atualização dinâmica de fatores de emissão
-🎯 Objetivo acadêmico
-
-Este projeto tem como objetivo aplicar conceitos de programação, modularização, validação de dados e testes automatizados, além de promover consciência ambiental através da tecnologia.
 
 👨‍💻 Autor
-
 Desenvolvido por estudante de Ciência da Computação.
